@@ -1,0 +1,120 @@
+[Wed Apr 23 18:28:29 EDT 2025]: Parsed Common.cfg: PreferredNeighbors=3, UnchokingInterval=5, OptimisticUnchokingInterval=10, FileName=tree.jpg, FileSize=24301568, PieceSize=1638400
+[Wed Apr 23 18:28:29 EDT 2025]: Reading peer configuration from PeerInfo.cfg...
+[Wed Apr 23 18:28:29 EDT 2025]: Loaded peer: ID=1001, Hostname=localhost, Port=6003, HasFile=true
+[Wed Apr 23 18:28:29 EDT 2025]: Loaded peer: ID=1002, Hostname=localhost, Port=6004, HasFile=false
+[Wed Apr 23 18:28:29 EDT 2025]: Loaded peer: ID=1003, Hostname=localhost, Port=6005, HasFile=false
+[Wed Apr 23 18:28:29 EDT 2025]: This peer [1003] has Hostname=localhost, Port=6005, HasFile=false
+[Wed Apr 23 18:28:29 EDT 2025]: Peer [1003] sent handshake to the remote peer.
+[Wed Apr 23 18:28:29 EDT 2025]: Peer [1003] received valid handshake from Peer [1001].
+[Wed Apr 23 18:28:29 EDT 2025]: TCP connection is built between P1003 and P1001
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1003] sent handshake to the remote peer.
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1003] received valid handshake from Peer [1002].
+[Wed Apr 23 18:28:30 EDT 2025]: TCP connection is built between P1003 and P1002
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1003] sent BITFIELD message to [1001].
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1003] sent BITFIELD message to [1002].
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1003] received the BITFIELD message from [1001].
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1003] received the BITFIELD message from [1002].
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1003] sent INTERESTED message to [1002].
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1003] sent INTERESTED message to [1001].
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1003] marked Peer [1002] as complete.
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1003] marked Peer [1001] as complete.
+[Wed Apr 23 18:28:30 EDT 2025]: Neighbor [1002]: Choked, Interested
+[Wed Apr 23 18:28:30 EDT 2025]: Neighbor [1001]: Choked, Interested
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1003] received the 'not interested' message from [1001].
+[Wed Apr 23 18:28:30 EDT 2025]: Neighbor [1001]: Choked, Not Interested
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1003] received the 'not interested' message from [1002].
+[Wed Apr 23 18:28:30 EDT 2025]: Neighbor [1002]: Choked, Not Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] is unchoked by [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [2] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] received the 'not interested' message from [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [2] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [2] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [2] from [1002]. Now the number of pieces it has is [1].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 1638400 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [13] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [13] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [13] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [13] from [1002]. Now the number of pieces it has is [2].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 3276800 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [9] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [9] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [9] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [9] from [1002]. Now the number of pieces it has is [3].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 4915200 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [1] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [1] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [1] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [1] from [1002]. Now the number of pieces it has is [4].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 6553600 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [3] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [3] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [3] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [3] from [1002]. Now the number of pieces it has is [5].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 8192000 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [6] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [6] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [6] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [6] from [1002]. Now the number of pieces it has is [6].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 9830400 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [11] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [11] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [11] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [11] from [1002]. Now the number of pieces it has is [7].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 11468800 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [12] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [12] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [12] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [12] from [1002]. Now the number of pieces it has is [8].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 13107200 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [7] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [7] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [7] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [7] from [1002]. Now the number of pieces it has is [9].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 14745600 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [10] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [10] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [10] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [10] from [1002]. Now the number of pieces it has is [10].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 16384000 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [4] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [4] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [4] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [4] from [1002]. Now the number of pieces it has is [11].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 18022400 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [0] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [0] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [0] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [0] from [1002]. Now the number of pieces it has is [12].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 19660800 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [5] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [5] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [5] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [5] from [1002]. Now the number of pieces it has is [13].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 21299200 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [8] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [8] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [8] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [8] from [1002]. Now the number of pieces it has is [14].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 22937600 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent REQUEST for piece [14] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the complete file.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [14] to [1001].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent HAVE message for piece [14] to [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] has downloaded the piece [14] from [1002]. Now the number of pieces it has is [15].
+[Wed Apr 23 18:28:32 EDT 2025]: Total bytes received so far: 24301474 bytes.
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1003] sent NOT INTERESTED message to [1002].
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1003] is unchoked by [1001].
+[Wed Apr 23 18:28:33 EDT 2025]: Neighbor [1001]: Unchoked, Not Interested
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1003] sent NOT INTERESTED message to [1001].
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1003] is unchoked by [1001].
+[Wed Apr 23 18:28:33 EDT 2025]: Neighbor [1001]: Unchoked, Not Interested
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1003] sent NOT INTERESTED message to [1001].
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1003] received the 'not interested' message from [1001].
+[Wed Apr 23 18:28:33 EDT 2025]: Neighbor [1001]: Unchoked, Not Interested
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1003] received the 'not interested' message from [1001].
+[Wed Apr 23 18:28:33 EDT 2025]: Neighbor [1001]: Unchoked, Not Interested
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1003] connection closed with [1002].
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1003] connection closed with [1001].
+[Wed Apr 23 18:28:34 EDT 2025]: Peer [1003] has downloaded the complete file and all peers have completed.

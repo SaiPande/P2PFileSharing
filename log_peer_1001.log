@@ -1,0 +1,140 @@
+[Wed Apr 23 18:28:23 EDT 2025]: Parsed Common.cfg: PreferredNeighbors=3, UnchokingInterval=5, OptimisticUnchokingInterval=10, FileName=tree.jpg, FileSize=24301568, PieceSize=1638400
+[Wed Apr 23 18:28:23 EDT 2025]: Reading peer configuration from PeerInfo.cfg...
+[Wed Apr 23 18:28:23 EDT 2025]: Loaded peer: ID=1001, Hostname=localhost, Port=6003, HasFile=true
+[Wed Apr 23 18:28:23 EDT 2025]: This peer [1001] has Hostname=localhost, Port=6003, HasFile=true
+[Wed Apr 23 18:28:23 EDT 2025]: Loaded peer: ID=1002, Hostname=localhost, Port=6004, HasFile=false
+[Wed Apr 23 18:28:23 EDT 2025]: Loaded peer: ID=1003, Hostname=localhost, Port=6005, HasFile=false
+[Wed Apr 23 18:28:23 EDT 2025]: Peer [1001] has split the file into 15 pieces.
+[Wed Apr 23 18:28:23 EDT 2025]: Waiting for all peers to connect. Currently tracked: 0 out of 2
+[Wed Apr 23 18:28:25 EDT 2025]: Waiting for all peers to connect. Currently tracked: 0 out of 2
+[Wed Apr 23 18:28:26 EDT 2025]: Peer [1001] sent handshake to the remote peer.
+[Wed Apr 23 18:28:26 EDT 2025]: Peer [1001] received valid handshake from Peer [1002].
+[Wed Apr 23 18:28:26 EDT 2025]: TCP connection is built between P1002 and P1001
+[Wed Apr 23 18:28:27 EDT 2025]: Peer [1001] sent BITFIELD message to [1002].
+[Wed Apr 23 18:28:27 EDT 2025]: Peer [1001] received the BITFIELD message from [1002].
+[Wed Apr 23 18:28:27 EDT 2025]: Peer [1001] sent NOT INTERESTED message to [1002].
+[Wed Apr 23 18:28:27 EDT 2025]: Neighbor [1002]: Choked, Not Interested
+[Wed Apr 23 18:28:27 EDT 2025]: Peer [1001] received the 'interested' message from [1002].
+[Wed Apr 23 18:28:27 EDT 2025]: Neighbor [1002]: Choked, Interested
+[Wed Apr 23 18:28:27 EDT 2025]: Waiting for all peers to connect. Currently tracked: 1 out of 2
+[Wed Apr 23 18:28:28 EDT 2025]: Every 5 seconds, Peer [1001] recalculates preferred neighbors and sends CHOKE/UNCHOKE messages.
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] is unchoking [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent NOT INTERESTED message to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] has the preferred neighbors [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] neighbor statuses:
+Neighbor [1002]: Unchoked, Not Interested
+
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [0] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [0].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [14] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [14].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [2] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [2].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [8] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [8].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [5] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [5].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [7] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [7].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [11] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [11].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [12] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [12].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [10] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [10].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [3] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [3].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [4] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [4].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [9] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [9].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [1] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [1].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [13] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [13].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] sent piece [6] to [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'have' message from [1002] for the piece [6].
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] marked Peer [1002] as complete.
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:28 EDT 2025]: Peer [1001] received the 'not interested' message from [1002].
+[Wed Apr 23 18:28:28 EDT 2025]: Neighbor [1002]: Unchoked, Not Interested
+[Wed Apr 23 18:28:29 EDT 2025]: Waiting for all peers to connect. Currently tracked: 1 out of 2
+[Wed Apr 23 18:28:29 EDT 2025]: Peer [1001] sent handshake to the remote peer.
+[Wed Apr 23 18:28:29 EDT 2025]: Peer [1001] received valid handshake from Peer [1003].
+[Wed Apr 23 18:28:29 EDT 2025]: TCP connection is built between P1003 and P1001
+[Wed Apr 23 18:28:29 EDT 2025]: Peer [1001] sent BITFIELD message to [1003].
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1001] received the BITFIELD message from [1003].
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1001] sent NOT INTERESTED message to [1003].
+[Wed Apr 23 18:28:30 EDT 2025]: Neighbor [1003]: Choked, Not Interested
+[Wed Apr 23 18:28:30 EDT 2025]: Peer [1001] received the 'interested' message from [1003].
+[Wed Apr 23 18:28:30 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] is choked by [1002].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1002]: Choked, Not Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [2].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [13].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [9].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [1].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [3].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [6].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [11].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [12].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [7].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [10].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [4].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [0].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [5].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [8].
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] received the 'have' message from [1003] for the piece [14].
+[Wed Apr 23 18:28:32 EDT 2025]: Peer [1001] marked Peer [1003] as complete.
+[Wed Apr 23 18:28:32 EDT 2025]: Neighbor [1003]: Choked, Interested
+[Wed Apr 23 18:28:33 EDT 2025]: Every 5 seconds, Peer [1001] recalculates preferred neighbors and sends CHOKE/UNCHOKE messages.
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1001] is unchoking [1003].
+[Wed Apr 23 18:28:33 EDT 2025]: Neighbor [1003]: Unchoked, Interested
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1001] is unchoking [1003].
+[Wed Apr 23 18:28:33 EDT 2025]: Neighbor [1003]: Unchoked, Interested
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1001] received the 'not interested' message from [1003].
+[Wed Apr 23 18:28:33 EDT 2025]: Neighbor [1003]: Unchoked, Not Interested
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1001] sent NOT INTERESTED message to [1003].
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1001] sent NOT INTERESTED message to [1003].
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1001] received the 'not interested' message from [1003].
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1001] has the optimistically unchoked neighbor [1003].
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1001] has the preferred neighbors [1003].
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1001] neighbor statuses:
+Neighbor [1002]: Choked, Not Interested
+Neighbor [1003]: Unchoked, Not Interested
+
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1001] neighbor statuses:
+Neighbor [1002]: Choked, Not Interested
+Neighbor [1003]: Unchoked, Not Interested
+
+[Wed Apr 23 18:28:33 EDT 2025]: Neighbor [1003]: Unchoked, Not Interested
+[Wed Apr 23 18:28:33 EDT 2025]: Peer [1001] has downloaded the complete file and all peers have completed.
